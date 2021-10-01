@@ -1,0 +1,10 @@
+# running local server through PYTHON 3
+- For security reasons, we cannot directly load files into webserver through d3. we need to setup 
+local server
+- check the python ver: python3 -v
+- change the directory where the INDEX.HTML file is located
+- run the following syntax to run local server: for port 8888, if other service using, change the port
+	python3 -m http.server 8888 &.
+
+- Now, we can view the local server: localhost:8888 
+- check the console for the objects passed through local files: CSV, JSON, etc.

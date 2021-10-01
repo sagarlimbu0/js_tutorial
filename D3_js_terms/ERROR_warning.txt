@@ -1,0 +1,17 @@
+# WE can include error pararmeter
+- This error parameter throws out incase of error faced by function
+- IF error message returned by web server, data will be undefined, if no error, files
+load sucessfully and there is no error, then error will be null
+
+EG;
+d3.csv("file.csv", function(error, data){
+	if (error){
+	 console.log(error) // log the error
+	//if no error, file loads correctly
+		}
+	else
+	{
+		console.log(data)
+	}
+ }
+)

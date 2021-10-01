@@ -1,0 +1,21 @@
+# Parsing the data Types
+- JS automatically assigns the data types to STRING
+- We need to assign as INT or STRING
+
+EG: creating a function and using as a PARAMETER while binding the data
+
+var rowConverter= function (d){
+	return{
+		x: parseInt(d.x),
+		y: parseInt(d.y)
+	};
+}
+
+# Storing DATA from csv to GLOBAL variable
+- var dataset;
+
+d3.csv("file.csv", function(data){
+	
+	// stroing the data, this can be used in other function
+	dataset= data
+});
