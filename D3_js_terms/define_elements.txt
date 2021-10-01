@@ -1,0 +1,20 @@
+# D3 library
+- library for manipulating the DOM tree, in order to represent information visually
+
+
+<svg>
+- element as the location in the DOM tree to contain the graph
+
+selectAll()
+- functions accepts as CSS selector string and return matching nodes:
+	- EG: select() only first match, and selectAll() a collection of all matching nodes
+
+- <circle> elments inside svg
+	- IN the example, there are'nt any ciricle elements inside SVG, but selectAll("circle)
+	simply returns an empty collection (of <circle> elements)
+
+- data()
+	- function returns a collection of elements that have been assoicated with
+	individual data points. In the current case, D3 cannot associate each data point
+	with a <circle> because there aren't any circle elements.
+

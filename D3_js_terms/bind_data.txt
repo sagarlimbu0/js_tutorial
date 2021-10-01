@@ -1,0 +1,6 @@
+# Binding data
+- process of mapping data to visuals
+- with D2, we bind our data input values to elements in the DOM. (attaching or associating
+data to specific elements)
+- Two elements: data and selection of DOM elements
+
